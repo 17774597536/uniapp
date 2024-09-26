@@ -1,0 +1,31 @@
+//@import "nut_ui";
+@mixin flex-row($justify:content,$align:center) {
+  display: flex;
+  flex-direction: row;
+  justify-content: $justify ;
+  align-items: $align;
+}
+
+@mixin flex-row-wrap($justify:content,$align:center) {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin flex-row-nowrap($justify:content,$align:center) {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin flex-column($justify: start,$align:center) {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: $justify;
+  align-items: $align;
+}

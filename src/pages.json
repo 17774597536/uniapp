@@ -1,0 +1,52 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			},
+			"name": "home"
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			},
+			"name": "user"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"navigationStyle": "custom"
+	},
+	"insetLoader": {
+		"config": {
+			"message": "<GyMessage ref='messageRef'></GyMessage>",
+			"dialog": "<GyDialog ref='dialogRef'></GyDialog>"
+		},
+		"label": ["message", "privacyModal", "dialog"],
+		"package": {
+			"label": "span",
+			"options": {
+				"id": "_da",
+				"class": "_da",
+				"style": {
+				}
+			}
+		}
+	},
+	"tabBar": {
+		"custom": true,
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的"
+			}
+		]
+	}
+}
