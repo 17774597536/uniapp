@@ -2,25 +2,25 @@
   <layout-page>
 
     <nut-button  type="primary" plain>主要按钮</nut-button>
-    <nut-button ty></nut-button>
-    <GyTip ref="tipRef" />
-    <button @click="onClick">
-      GyTip
-    </button>
-    <button @click="messageRef?.open({ type: 'success', content: 'success' })">
-      GyMessage
-    </button>
-    <button @click="messageRef?.open({ type: 'success', content: 'success' })">
-      GyMessage
-    </button>
-    <button @click="openDialog">
-      GyDialog
-    </button>
-    <button @click="getLocationInformation">
-      getlocation
-    </button>
-    {{ latitudeAndLongitude }}
-    <div>{{ $sex }}</div>
+<!--    <nut-button ty></nut-button>-->
+<!--    <GyTip ref="tipRef" />-->
+<!--    <button @click="onClick">-->
+<!--      GyTip-->
+<!--    </button>-->
+<!--    <button @click="messageRef?.open({ type: 'success', content: 'success' })">-->
+<!--      GyMessage-->
+<!--    </button>-->
+<!--    <button @click="messageRef?.open({ type: 'success', content: 'success' })">-->
+<!--      GyMessage-->
+<!--    </button>-->
+<!--    <button @click="openDialog">-->
+<!--      GyDialog-->
+<!--    </button>-->
+<!--    <button @click="getLocationInformation">-->
+<!--      getlocation-->
+<!--    </button>-->
+<!--    {{ latitudeAndLongitude }}-->
+<!--    <div>{{ $sex }}</div>-->
   </layout-page>
 </template>
 
